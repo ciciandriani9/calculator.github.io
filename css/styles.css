@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.calculator {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+
+.calculator-display {
+    width: 100%;
+    height: 15%;
+    background-color: #383f48;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Poppins';
+}
+
+button {
+    width: 25%;
+    background-color: #383838;
+    font-family: 'Poppins';
+    border: 1px solid white;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    transition: all .5s;
+}
+
+
+button:hover {
+    cursor: pointer;
+    background-color: #444444;
+    transition: all .5s;
+}
+
+.operator {
+    background-color: #d6e0f5;
+}
+
+.number {
+    background-color: #383838;
+}
+
+.userEntry {
+    bottom: 0;
+    padding: 0;
+    margin: 5px;
+    right: 0;
+}
+
+.finalCalc {
+    right: 0;
+    margin: 5px;
+    top: 0;
+    padding: 0;
+}
+
+.calculator-display p {
+    font-size: 2.8rem;
+    text-align: right;
+}
+
+.calculator-container {
+    width: 100%;
+    height: 85%;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.operator:nth-child(1) {
+    color: #ff6a00;
+    font-weight: 600;
+}
+
+.operator {
+    width: 25%;
+    background-color: #383838;
+    font-family: 'Poppins';
+    border: 1px solid white;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    transition: all .5s;
+}
+
+.operator:hover {
+    cursor: pointer;
+    background-color: #444444;
+    transition: all .5s;
+
+}
+
+
+/* 
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+} */
